@@ -1,0 +1,114 @@
+@import url('https://fonts.googleapis.com/css2?family=Agbalumo&family=Comfortaa:wght@300;700&family=Edu+SA+Beginner:wght@400;700&family=Lumanosimo&family=Pangolin&family=Poppins:wght@400;600;700&family=Protest+Riot&display=swap');
+.containerDefault {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+}
+.container {
+	width: 700px;
+	text-align: center;
+	font-size: 30px;
+}
+.containerTimer {
+  background-color: #b9cad6;
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: space-around;
+  border: 2px solid #5d5c61;
+  height: 466px;
+  width: 700px;
+}
+label {
+	font-family: Protest Riot;
+  font-size: 30px;
+	width: 170px;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+input {
+	font-family: Protest Riot;
+  font-size: 16px;
+  text-align: center;
+	width: 162px;
+  margin-left: 16px;
+  border: 1px solid #5d5c61;
+  border-radius: 10px;
+  transition: 0.5s ease-in-out;
+}
+input:hover {
+  box-shadow: 10px 5px 5px #557a95;
+}
+.containerInfo {
+	font-family: Protest Riot;
+  font-size: 30px;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  width: 500px;
+}
+.buttonContainer {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  width: 500px;
+}
+#start,
+#stop,
+#reset {
+	padding: 16px;
+  width: 136px;
+  height: 45px;
+  border: 1px solid #5d5c61;
+  border-radius: 10px;
+  background-color: #b3aea9;
+  font-family: Protest Riot;
+  font-size: 20px;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  transition: 0.5s ease-in-out;
+}
+#start:hover,
+#stop:hover,
+#reset:hover {
+  box-shadow: 10px 5px 5px #5d5c61;
+}
+#minutes,
+#seconds {
+  height: 28px;
+}
+body {
+	height: 100vh;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+
+.circular-progress {
+	position: relative;
+	height: 180px;
+	width: 180px;
+	border-radius: 50%;
+	background: conic-gradient(pink 0deg, #ededed 0deg);
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+.circular-progress::before {
+	content: "";
+	position: absolute;
+	width: 140px;
+	height: 140px;
+	border-radius: 50%;
+	background: #fff;
+}
+.progress-value {
+	position: relative;
+}
+.timeBox {
+	display: flex;
+	flex-direction: row;
+}

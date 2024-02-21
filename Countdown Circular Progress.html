@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <title>HTML + CSS</title>
+	
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+	<link rel="stylesheet" href="styles.css" />
+    
+  </head>
+  <body>
+    <div class="containerDefault">
+	<div class="container">
+	<div id="alertMinutes" class="hidden alert alert-info fade in alert-dismissble">
+        <a href="#" class="close" data-dismiss="alert" aria-label="close"
+          >&times;</a
+        >
+        <p>Your limit is <strong>99 minutes!</strong>
+      </div>
+	  <div id="alertSeconds" class="hidden alert alert-info fade in alert-dismissble">
+        <a href="#" class="close" data-dismiss="alert" aria-label="close"
+          >&times;</a
+        >
+        <p>Your limit is <strong>60 seconds!</strong>
+      </div>
+	  </div>
+      <div class="containerTimer">
+        <label for="minutes">minutes
+    <input type="number" id="minutes" data-toggle="tooltip" data-placement="bottom" title="Your limit is 99 minutes!" />
+        </label>
+        <label for="seconds">seconds
+    <input type="number" id="seconds" data-toggle="tooltip" data-placement="bottom" title="Your limit is 60 seconds!" />
+        </label>
+    <div class="containerInfo">
+      <div class="containerDefault">
+		<div class="circular-progress">
+			<span class="progress-value">
+			<div class="timeBox">
+		<div class="minutesInfo">00</div>
+		<div> : </div>
+		<div class="secondsInfo">00</div>
+		</div>
+			</span>
+		</div>
+		
+	</div> 
+    </div>
+    <div class="buttonContainer">
+    <button id="start">Start 
+	<span class="glyphicon glyphicon-play"></span></button>
+    <button id="stop">Stop
+	<span class="glyphicon glyphicon-pause"></span></button>
+    <button id="reset">Reset 
+	<span class="glyphicon glyphicon-refresh"></span></button>
+    </div>
+  </div>
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
+	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+    <script src="script.js"></script>
+  </body>
+</html>
