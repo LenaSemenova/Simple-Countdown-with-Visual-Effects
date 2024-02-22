@@ -1,7 +1,7 @@
 # Simple-Countdown-with-Visual-Effects
 (EN)
 You can find here a simple countdown with visual effects that I created for my learning course. 
-For this app I use HTML, CSS and JavaScript. Some features are added through Bootstrap and jQuery (because jQuery is included in Bootstrap 3).
+For this app I used HTML, CSS and JavaScript. Some features were added through Bootstrap and jQuery (because jQuery is included in Bootstrap 3).
 You can run the code here: https://codepen.io/Lena-Semenova/full/abMrzjW
 -----
 (RU) Простой таймер обратного отсчёт с визуальными эффектами
