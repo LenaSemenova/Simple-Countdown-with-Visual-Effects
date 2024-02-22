@@ -8,7 +8,7 @@
 .container {
 	width: 700px;
 	text-align: center;
-	font-size: 30px;
+	font-size: 20px;
 }
 .containerTimer {
   background-color: #b9cad6;
@@ -17,12 +17,12 @@
   align-items: center;
   justify-content: space-around;
   border: 2px solid #5d5c61;
-  height: 466px;
+  height: 400px;
   width: 700px;
 }
 label {
 	font-family: Protest Riot;
-  font-size: 30px;
+  font-size: 24px;
 	width: 170px;
   display: flex;
   align-items: center;
